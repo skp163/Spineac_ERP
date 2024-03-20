@@ -1,5 +1,5 @@
 """
-WSGI config for Spineac_ERP project.
+WSGI config for Spineac_ERP_Django project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Spineac_ERP.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Spineac_ERP_Django.settings")
 
 application = get_wsgi_application()
